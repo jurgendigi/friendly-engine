@@ -60,3 +60,4 @@ jobs:
         with: 
           path: './out'
       - name: deploy
+        uses: actions/deploy-pages@v1  # Example action for GitHub Pages deployment
